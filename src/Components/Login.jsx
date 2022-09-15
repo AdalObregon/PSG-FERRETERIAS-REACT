@@ -46,7 +46,7 @@ const Login = () => {
                 <p className='text-center dark:text-gray-200'>
                   ¿No tienes cuenta?
                   <span className='font-semibold text-indigo-500 hover:text-indigo-600'>
-                    <a href='#'> Registrate</a>
+                    <a href='/registro'> Registrate</a>
                   </span>{' '}
                 </p>
               </div>
