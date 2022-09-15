@@ -31,7 +31,7 @@ const Login = () => {
 
                 <p className='grid justify-items-end '>
                   <a
-                    href='/recuperar-contrasena'
+                    href='/restablecer-contrasena'
                     className='mt-4 font-semibold hover:text-gray-500 dark:text-gray-200'
                   >
                     {' '}
