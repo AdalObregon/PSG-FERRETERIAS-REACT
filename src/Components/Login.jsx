@@ -3,23 +3,27 @@ import React from 'react';
 const Login = () => {
   return (
     <>
-      <section className='grid grid-cols-2 h-screen'>
+      <section className='grid lg:grid-cols-2 h-screen grid-cols-1 '>
         <div className='bg-[url("./assets/login_img.jpg")] bg-no-repeat bg-cover'></div>
         <div className='bg-gray-50'>
           <form className='flex h-screen'>
-            <div className='m-auto w-7/12'>
+            <div className='m-auto lg:w-7/12'>
               <h1 className='font-bold text-5xl text-center mb-20 text-zinc-700'>
-                Iniciar Sesion
+                Iniciar Sesión
               </h1>
               <div className=' mt-6'>
-                <label className='block text-2xl mb-3 font-medium'>Correo</label>
+                <label className='block text-2xl mb-3 font-medium'>
+                  Correo
+                </label>
                 <input
                   placeholder='example@example.com'
                   className='w-full h-12 px-3 rounded-lg bg-gray-50 border-2 border-gray-300'
                 />
               </div>
               <div className=' mt-6'>
-                <label className='block text-2xl mb-3 font-medium'>Contraseña</label>
+                <label className='block text-2xl mb-3 font-medium'>
+                  Contraseña
+                </label>
                 <input
                   placeholder='**********'
                   className='w-full h-12 px-3 rounded-lg bg-gray-50 border-2 border-gray-300'
@@ -30,12 +34,12 @@ const Login = () => {
                 </p>
               </div>
               <div className=' mt-6'>
-                <button className='bg-green-300 hover:bg-green-400 w-full h-14 rounded-lg text-2xl font-semibold mb-10'>
+                <button className='bg-buttonColor hover:bg-buttonHover w-full h-14 rounded-lg text-2xl font-semibold mb-10 text-white'>
                   Iniciar Sesión
                 </button>
                 <p className='text-center'>
                   ¿No tienes cuenta?
-                  <span className='font-semibold text-lime-700 hover:text-lime-600'>
+                  <span className='font-semibold text-secondaryColor hover:text-indigo-600'>
                     <a href='#'> Registrate</a>
                   </span>{' '}
                 </p>
