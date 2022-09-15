@@ -3,7 +3,7 @@ import React from 'react';
 const Login = () => {
   return (
     <>
-      <section className='grid grid-cols-2 h-screen bg-gray-200'>
+      <section className='grid grid-cols-2 h-screen'>
         <div className='bg-[url("./assets/login_img.jpg")] bg-no-repeat bg-cover'></div>
         <div className='bg-gray-50'>
           <form className='flex h-screen'>
